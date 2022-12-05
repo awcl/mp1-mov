@@ -10,7 +10,11 @@
   color: white;
 }
 
-input[type='text'], button {
+input[type='text'], button{
   text-align: center;
   font-size: calc(20px + 2vmin);
+}
+
+.apiCredit {
+  height: calc(18px + 2vmin);
 }

@@ -12,7 +12,7 @@ const Search = () => {
       <div className="SearchBar">
         <input className="SearchInput"
           type="text"
-          placeholder="Search for a Movie"
+          placeholder="Search for a Movie Here..."
           onChange={(e) => {
             e.target.value = e.target.value.trim();
             setQuery(e.target.value);}}/>
